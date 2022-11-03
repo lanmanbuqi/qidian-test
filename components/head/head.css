@@ -1,0 +1,271 @@
+#beforeTopNav {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+}
+#beforeTopNav > .beforeTop {
+  width: 1200px;
+  margin: 0 auto;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+#beforeTopNav > .beforeTop > div > i {
+  font-style: normal;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #d9d9d9;
+  font: 12px/35px Arial;
+  margin: 0 0 0 10px;
+}
+
+#headBefore {
+  width: 100%;
+}
+#headBefore > .beforeBar {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 84px;
+  align-items: center;
+}
+#headBefore > .beforeBar > .logo a {
+  display: block;
+  background: url(/assets/imges/logo.29766..png) no-repeat;
+  width: 218px;
+  height: 55px;
+}
+#headBefore > .beforeBar > .search {
+  display: flex;
+}
+#headBefore > .beforeBar > .search > input {
+  height: 40px;
+  width: 348px;
+  border: 1px solid #d9d9d9;
+  padding: 0 11px;
+  font-size: 16px;
+  color: #575757;
+}
+#headBefore > .beforeBar > .search > label {
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: #bf2c24;
+  cursor: pointer;
+}
+#headBefore > .beforeBar > .search > label:hover {
+  background-color: #df4f48;
+}
+#headBefore > .beforeBar > .shujia {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#headBefore > .beforeBar > .shujia:hover {
+  background-color: #df4f48;
+  color: white;
+}
+#headBefore > .beforeBar > .shujia > img {
+  width: 16px;
+  height: 20px;
+}
+
+#headBar {
+  width: 100%;
+  background-color: #3e3d43;
+}
+#headBar > ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#headBar > ul > div:first-child > span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 216px;
+  height: 40px;
+  background-color: #313035;
+  transition: 0.3s;
+}
+#headBar > ul > div:first-child > span:hover {
+  background-color: #252428;
+}
+#headBar > ul > div:first-child > span > img {
+  width: 16px;
+  height: 14px;
+  margin-left: 13px;
+}
+#headBar > ul > div:first-child > span > a {
+  color: #fff;
+  padding-left: 10px;
+  font: 16px PingFangSC-Regular, HelveticaNeue-Light, Helvetica Neue Light, Microsoft YaHei, "sans-serif";
+}
+#headBar > ul > div {
+  display: flex;
+}
+#headBar > ul > div > li {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+#headBar > ul > div > li:hover {
+  background-color: #252428;
+  border-bottom: 2px solid #252428;
+  border-top: 2px solid #ed4259;
+  height: 40px;
+}
+#headBar > ul > div > li:nth-child(8) {
+  padding: 0 32px;
+}
+#headBar > ul > div > li:nth-child(8) > a {
+  padding: 0;
+}
+#headBar > ul > div > li > a {
+  border-bottom: 2px solid #333;
+  color: #fff;
+  font: 16px PingFangSC-Regular, HelveticaNeue-Light, Helvetica Neue Light, Microsoft YaHei, "sans-serif";
+  height: 40px;
+  line-height: 40px;
+  padding: 0 32px;
+}
+#headBar > ul > div > li img {
+  width: 16px;
+  height: 38px;
+}
+#headBar > ul > div > div {
+  display: flex;
+  position: relative;
+}
+#headBar > ul > div > div:hover > a {
+  border-bottom: none;
+  color: #ffeea8;
+}
+#headBar > ul > div > div:hover > div {
+  top: 40px;
+  display: block;
+}
+#headBar > ul > div > div > a {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: block;
+  border-bottom: 2px solid #333;
+  color: #fff;
+  font: 16px PingFangSC-Regular, HelveticaNeue-Light, Helvetica Neue Light, Microsoft YaHei, "sans-serif";
+  line-height: 40px;
+  padding: 0;
+  height: 40px;
+}
+#headBar > ul > div > div img {
+  margin: 0 10px;
+  width: 16px;
+  height: 38px;
+}
+#headBar > ul > div > div > .webGame {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 216px;
+  height: 406px;
+  background-color: white;
+  display: none;
+  transition: 0.05s;
+}
+#headBar > ul > div > div > .webGame > i {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid white;
+  right: 0;
+  top: -20px;
+}
+#headBar > ul > div > div > .webGame > ul {
+  display: block;
+  padding: 15px 12px;
+  background-color: white;
+}
+#headBar > ul > div > div > .webGame > ul > h6 {
+  color: #bf2c24;
+  font-family: PingFangSC-Regular, -apple-system, Simsun;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+#headBar > ul > div > div > .webGame > ul > li {
+  cursor: pointer;
+}
+#headBar > ul > div > div > .webGame > ul > li > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > span:first-child {
+  color: #a6a6a6;
+  float: left;
+  font-family: PingFangSC-Regular, -apple-system, Simsun;
+  font-size: 12px;
+  margin-right: 8px;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > a {
+  font-family: PingFangSC-Regular, -apple-system, Simsun;
+  font-size: 14px;
+  height: 18px;
+  margin-right: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 84px;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > i {
+  font-style: normal;
+  color: #666;
+  float: left;
+  font-family: PingFangSC-Regular, -apple-system, Simsun;
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 30px;
+  min-width: 30px;
+  text-align: right;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > span:last-child {
+  background: url(../../assets/imges/tag.png) no-repeat 0 -12px;
+  height: 12px;
+  margin-top: 3px;
+  width: 22px;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > img {
+  height: 46px;
+  width: 192px;
+  display: none;
+}
+#headBar > ul > div > div > .webGame > ul > li > div > img.active {
+  display: block;
+}
+#headBar > ul > div > div > .webGame > img {
+  width: 192px;
+  height: 82px;
+}/*# sourceMappingURL=head.css.map */

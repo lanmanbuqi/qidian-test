@@ -1,0 +1,26 @@
+/* 存放当前项目书写的公共样式 */
+/* 滚动栏 */
+::-webkit-scrollbar{
+    height: 8px;
+    width: 8px;
+}
+/* 滚动栏的轨道 */
+::-webkit-scrollbar-track{
+    background-color: #ddd9cf;
+}
+/* 滚动栏滑块 */
+::-webkit-scrollbar-thumb{
+    background-color: #b3aa94;
+    border-radius: 6px;
+}
+.breadcrumb{
+    padding: 10px 0;
+    background-color: #eee;
+}
+.hide{
+    visibility: hidden;
+}
+img{
+    cursor: pointer;
+}
+

@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+	margin: 0;
+	padding: 0;
+}
+ul,li {
+	list-style: none;
+}
+img {
+	display: block;
+}
+html{
+    font-size: 16px;
+    color: #575757;;
+}
+a{
+    text-decoration: none;
+    color: #575757;;
+    font-size: 12px;
+}
+a:hover{
+    color: #f00;;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.8;
+}
+input[type=text]{
+    outline: none;
+    border: none;
+}
+table{
+    border-collapse: collapse;
+}
+/* 重置分割线 */
+hr{
+    border: none;
+    background-color: #ccc;
+    height: 1px;
+    margin: 10px 0;
+}
