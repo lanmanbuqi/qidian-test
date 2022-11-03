@@ -57,6 +57,33 @@
 			> .swp-main {
 				width: 748px;
 				height: 250px;
+				position: relative;
+				.swiper-slide {
+					> img {
+						width: 100%;
+						height: 250px;
+					}
+				}
+				.supplement {
+					position: absolute;
+					width: 10%;
+					height: 36px;
+					background-color: rgba(0, 0, 0, 0.7);
+					right: 0;
+					bottom: 0;
+					z-index: 10000;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					i {
+						display: block;
+						width: 5px;
+						height: 5px;
+						margin: 0 5px;
+						border-radius: 10px;
+						background-color: white;
+					}
+				}
 			}
 			> .swp-buttom {
 				height: 160px;

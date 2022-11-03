@@ -1,0 +1,25 @@
+/* 顶部的轮播图自定义样式 */
+.swiper-pagination {
+	text-align: left !important;
+	display: flex;
+	width: 90% !important;
+	bottom: 0 !important;
+}
+.swiper-pagination .my-bullet {
+	background: rgba(0, 0, 0, 0.7);
+	width: 25%;
+	color: white;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid hsla(0, 0%, 100%, 0.4);
+	border-top: none;
+	border-bottom: none;
+}
+.my-bullet-active {
+	background-color: #ed4259 !important;
+	font-weight: 700;
+}

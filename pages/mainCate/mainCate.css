@@ -58,6 +58,31 @@
 .mainCateBar > .cateNav > .swp > .swp-main {
   width: 748px;
   height: 250px;
+  position: relative;
+}
+.mainCateBar > .cateNav > .swp > .swp-main .swiper-slide > img {
+  width: 100%;
+  height: 250px;
+}
+.mainCateBar > .cateNav > .swp > .swp-main .supplement {
+  position: absolute;
+  width: 10%;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.7);
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainCateBar > .cateNav > .swp > .swp-main .supplement i {
+  display: block;
+  width: 5px;
+  height: 5px;
+  margin: 0 5px;
+  border-radius: 10px;
+  background-color: white;
 }
 .mainCateBar > .cateNav > .swp > .swp-buttom {
   height: 160px;
