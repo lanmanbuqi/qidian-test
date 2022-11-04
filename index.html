@@ -6,15 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/css/reset.css" />
 		<link rel="stylesheet" href="./assets/css/base.css" />
+		<link
+			rel="stylesheet"
+			href="../../node_modules/swiper/swiper-bundle.css"
+		/>
 		<title>起点阅读</title>
 	</head>
 	<body>
 		<div id="head"></div>
 		<div id="mainCate"></div>
+		<div id="mainList"></div>
 		<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../../node_modules/swiper/swiper-bundle.js"></script>
 		<script>
 			$('#head').load('./components/head/head.html');
 			$('#mainCate').load('./pages/mainCate/mainCate.html');
+			$('#mainList').load('./pages/mainList/mainList.html');
 		</script>
 	</body>
 </html>

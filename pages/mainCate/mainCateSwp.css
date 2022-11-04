@@ -22,4 +22,5 @@
 .my-bullet-active {
 	background-color: #ed4259 !important;
 	font-weight: 700;
+	user-select: none;
 }
